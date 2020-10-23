@@ -176,7 +176,7 @@ delay (500);
 
 else { //si on est eteint 
   
-  if (etatfil !=0) { //si le filament est allumé, la LED rouge allumée 
+  if (etatfil !=0) { //si le filament est allumé, la LED rouge allumée (dans le cas du relais restant collé)
          digitalWrite(ledRouge,LOW);
          digitalWrite(ledVert,HIGH); 
  }  else {
