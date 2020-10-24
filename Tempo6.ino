@@ -4,13 +4,6 @@
 // version beta 1.11
 // -----------------------------------------
 
-
-
-int R=1;
-int V=1;
-int B=1;
-
-
 int ledRouge=5; // Constante pour la broche 5
 int ledVert=6; // Constante pour la broche 6
 int ledBleu=9; // Constante pour la broche 9
